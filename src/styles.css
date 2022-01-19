@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media only screen and (min-width: 800px) {
+  html {
+    font-size: 75px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+body {
+  font-family: sans-serif;
+  padding: 3rem;
+}
+
+.hero-section {
+  background-color: blueviolet;
+  min-height: 40rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: lightcyan;
+  font-family: monospace;
+}
+
+h3 {
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 200;
+  margin-bottom: 24px;
+}
+
+button {
+  padding: 16px 24px;
+  border-radius: 24px;
+}
